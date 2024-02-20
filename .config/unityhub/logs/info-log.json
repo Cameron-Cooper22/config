@@ -1,0 +1,238 @@
+{"timestamp":"2024-02-20T01:37:43.307Z","level":"info","moduleName":"App","message":"[ 'Checking arguments for Windows custom URI scheme' ]"}
+{"timestamp":"2024-02-20T01:37:43.307Z","level":"info","moduleName":"App","message":"[ 'No custom URI argument found' ]"}
+{"timestamp":"2024-02-20T01:37:43.309Z","level":"info","moduleName":"SystemInfo","message":"[ 'Hub version: 3.1.1-c1' ]"}
+{"timestamp":"2024-02-20T01:37:43.309Z","level":"info","moduleName":"SystemInfo","message":"[ 'Hub path: undefined' ]"}
+{"timestamp":"2024-02-20T01:37:43.310Z","level":"info","moduleName":"SystemInfo","message":"[ 'AMD Ryzen 7 3700X 8-Core Processor; Linux (6.7.5-arch1-1)' ]"}
+{"timestamp":"2024-02-20T01:37:43.319Z","level":"info","moduleName":"HubSettings","message":"[\n  {\n    cloudEnvironment: 'production',\n    servicesUrlInterval: 900000,\n    hubConfigInterval: 3600000,\n    releasesRefreshInterval: 3600000,\n    recentProjectInterval: 60000,\n    downloadClusterInterval: 1000,\n    downloadEditorInterval: 1000,\n    refreshTokenValidity: 2592000000,\n    checkForUpdateInterval: 43200000,\n    sendAnalyticsEventsInterval: 60000,\n    maxSizeForAnalyticsQueue: 500,\n    downloadRequestTimeout: 30000,\n    servicesConfigBaseUrl: 'https://public-cdn.cloud.unitychina.cn/config/',\n    globalConfigFolder: '/usr/share/unity3d/config'\n  }\n]"}
+{"timestamp":"2024-02-20T01:37:43.319Z","level":"info","moduleName":"CloudConfig","message":"[\n  'Cloud Config endpoint: https://public-cdn.cloud.unitychina.cn/config/production'\n]"}
+{"timestamp":"2024-02-20T01:37:44.388Z","level":"info","moduleName":"LocalConfig","message":"[\n  'Local Config endpoint: https://public-cdn.cloud.unitychina.cn/hub/prod/hubConfig.json'\n]"}
+{"timestamp":"2024-02-20T01:37:44.392Z","level":"info","moduleName":"TokenManager","message":"[ 'Init' ]"}
+{"timestamp":"2024-02-20T01:37:44.395Z","level":"warn","moduleName":"TokenManager","message":"[ 'Token storage is corrupted.', [Error: The name is not activatable] ]"}
+{"timestamp":"2024-02-20T01:37:44.395Z","level":"info","moduleName":"TokenManager","message":"[ 'Done init' ]"}
+{"timestamp":"2024-02-20T01:37:44.396Z","level":"info","moduleName":"LicensingSdkService","message":"[\n  'licensingClientPath: /opt/unityhub/UnityLicensingClient_V1/Unity.Licensing.Client'\n]"}
+{"timestamp":"2024-02-20T01:37:44.396Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Licensing SDK version: v1.6.2' ]"}
+{"timestamp":"2024-02-20T01:37:44.396Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'connect: Connecting to Licensing Client IPC channel' ]"}
+{"timestamp":"2024-02-20T01:37:44.396Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Trying to connect to existing primary pipe (if any)...' ]"}
+{"timestamp":"2024-02-20T01:37:44.397Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Trying to connect on pipe /tmp/Unity-LicenseClient-kinveth.sock' ]"}
+{"timestamp":"2024-02-20T01:37:44.398Z","level":"warn","moduleName":"LicensingSdkService","message":"[ 'Lost IPC connection to Licensing Client' ]"}
+{"timestamp":"2024-02-20T01:37:44.398Z","level":"warn","moduleName":"LicensingSdkService","message":"[ 'Failed with ipc error type: PipeIsNotOpen, pid: undefined' ]"}
+{"timestamp":"2024-02-20T01:37:44.399Z","level":"error","moduleName":"LicensingSdkService","message":"[\n  \"Failed to connect to pipe: 'Unity-LicenseClient-kinveth, pid: undefined'\"\n]"}
+{"timestamp":"2024-02-20T01:37:44.399Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'tryKillClientProcess: No client process initialized' ]"}
+{"timestamp":"2024-02-20T01:37:44.399Z","level":"info","moduleName":"LicensingSdkService","message":"[\n  'Launching Licensing Client from /opt/unityhub/UnityLicensingClient_V1/Unity.Licensing.Client...'\n]"}
+{"timestamp":"2024-02-20T01:37:44.399Z","level":"info","moduleName":"LicensingSdkService","message":"[\n  \"Launching on pipe: 'Unity-LicenseClient-kinveth' in environment: 'production'\"\n]"}
+{"timestamp":"2024-02-20T01:37:44.767Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Licensing client process run with pid: 13030' ]"}
+{"timestamp":"2024-02-20T01:37:44.767Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Trying to connect on pipe /tmp/Unity-LicenseClient-kinveth.sock' ]"}
+{"timestamp":"2024-02-20T01:37:44.806Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully connected to licensing client' ]"}
+{"timestamp":"2024-02-20T01:37:44.806Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Init' ]"}
+{"timestamp":"2024-02-20T01:37:44.806Z","level":"info","moduleName":"Authentification Service","message":"[ 'Initializing the auth service' ]"}
+{"timestamp":"2024-02-20T01:37:44.806Z","level":"info","moduleName":"Authentification Service","message":"[ 'Logging out' ]"}
+{"timestamp":"2024-02-20T01:37:44.807Z","level":"info","moduleName":"CloudAnalytics","message":"[ 'Init' ]"}
+{"timestamp":"2024-02-20T01:37:44.808Z","level":"info","moduleName":"EditorManager","message":"[ 'Init' ]"}
+{"timestamp":"2024-02-20T01:37:44.808Z","level":"info","moduleName":"Releases","message":"[\n  'Releases endpoint: https://public-cdn.cloud.unitychina.cn/hub/prod/releases-linux.json'\n]"}
+{"timestamp":"2024-02-20T01:37:44.808Z","level":"error","message":"Unhandled promise rejection, reason: The name is not activatable\n\tstack Error: The name is not activatable"}
+{"timestamp":"2024-02-20T01:37:44.809Z","level":"error","message":"Unhandled promise rejection, reason: The name is not activatable\n\tstack Error: The name is not activatable"}
+{"timestamp":"2024-02-20T01:37:44.810Z","level":"error","message":"Unhandled promise rejection, reason: The name is not activatable\n\tstack Error: The name is not activatable"}
+{"timestamp":"2024-02-20T01:37:44.810Z","level":"error","message":"Unhandled promise rejection, reason: The name is not activatable\n\tstack Error: The name is not activatable"}
+{"timestamp":"2024-02-20T01:37:44.810Z","level":"error","message":"Unhandled promise rejection, reason: The name is not activatable\n\tstack Error: The name is not activatable"}
+{"timestamp":"2024-02-20T01:37:44.811Z","level":"info","moduleName":"EditorList","message":"[ 'init' ]"}
+{"timestamp":"2024-02-20T01:37:44.812Z","level":"info","moduleName":"customInstallLocation","message":"[ 'Custom install path not present.' ]"}
+{"timestamp":"2024-02-20T01:37:44.813Z","level":"info","moduleName":"EditorFolderScanner","message":"[\n  '0 out of 0 valid paths found in path:\\n      /home/kinveth/Unity/Hub/Editor'\n]"}
+{"timestamp":"2024-02-20T01:37:44.813Z","level":"info","moduleName":"customInstallLocation","message":"[ 'Cannot scan custom location (no path set).' ]"}
+{"timestamp":"2024-02-20T01:37:44.814Z","level":"info","moduleName":"LocatedEditorStorage","message":"[ '0 located Editors found in storage' ]"}
+{"timestamp":"2024-02-20T01:37:44.814Z","level":"info","moduleName":"EditorApp","message":"[ 'Init' ]"}
+{"timestamp":"2024-02-20T01:37:44.817Z","level":"info","moduleName":"AutoUpdater","message":"[ 'Init' ]"}
+{"timestamp":"2024-02-20T01:37:45.918Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2024-02-20T01:37:45.935Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2024-02-20T01:37:45.935Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2024-02-20T01:37:45.936Z","level":"warn","moduleName":"AutoUpdater","message":"[ 'Missing update server path' ]"}
+{"timestamp":"2024-02-20T01:37:45.936Z","level":"info","moduleName":"AutoUpdater","message":"[ 'Checking for hub updates' ]"}
+{"timestamp":"2024-02-20T01:37:45.937Z","level":"info","moduleName":"AutoUpdater:EventHandler","message":"[ 'Checking for update' ]"}
+{"timestamp":"2024-02-20T01:37:45.938Z","level":"warn","moduleName":"AutoUpdater:EventHandler","message":"[\n  <ref *1> AppImageUpdater {\n    _events: [Object: null prototype] {\n      error: [Array],\n      'checking-for-update': [Function: bound ],\n      'update-available': [Function: bound ],\n      'update-not-available': [Function: bound ],\n      'download-progress': [Function: bound ],\n      'update-downloaded': [Function: bound ]\n    },\n    _eventsCount: 6,\n    _maxListeners: undefined,\n    autoDownload: false,\n    autoInstallOnAppQuit: true,\n    allowPrerelease: true,\n    fullChangelog: false,\n    allowDowngrade: false,\n    _channel: 'latest',\n    downloadedUpdateHelper: null,\n    requestHeaders: null,\n    _logger: Object [console] {\n      log: [Function: log],\n      warn: [Function: warn],\n      dir: [Function: dir],\n      time: [Function: time],\n      timeEnd: [Function: timeEnd],\n      timeLog: [Function: timeLog],\n      trace: [Function: trace],\n      assert: [Function: assert],\n      clear: [Function: clear],\n      count: [Function: count],\n      countReset: [Function: countReset],\n      group: [Function: group],\n      groupEnd: [Function: groupEnd],\n      table: [Function: table],\n      debug: [Function: debug],\n      info: [Function: info],\n      dirxml: [Function: dirxml],\n      error: [Function: error],\n      groupCollapsed: [Function: groupCollapsed],\n      Console: [Function: Console],\n      profile: [Function: profile],\n      profileEnd: [Function: profileEnd],\n      timeStamp: [Function: timeStamp],\n      context: [Function: context]\n    },\n    signals: UpdaterSignal { emitter: [Circular *1] },\n    _appUpdateConfigPath: '/opt/unityhub/resources/app-update.yml',\n    clientPromise: Promise { <rejected> [Error] },\n    stagingUserIdPromise: Lazy { _value: null, creator: [Function (anonymous)] },\n    configOnDisk: Lazy { _value: [Promise], creator: null },\n    checkForUpdatesPromise: null,\n    updateInfoAndProvider: null,\n    _testOnlyOptions: null,\n    app: ElectronAppAdapter { app: [App] },\n    httpExecutor: ElectronHttpExecutor {\n      maxRedirects: 10,\n      proxyLoginCallback: [Function (anonymous)],\n      cachedSession: null\n    },\n    currentVersion: SemVer {\n      options: [Object],\n      loose: false,\n      raw: '3.1.1-c1',\n      major: 3,\n      minor: 1,\n      patch: 1,\n      prerelease: [Array],\n      build: [],\n      version: '3.1.1-c1'\n    },\n    quitAndInstallCalled: false,\n    quitHandlerAdded: false,\n    [Symbol(kCapture)]: false\n  }\n]"}
+{"timestamp":"2024-02-20T01:37:45.938Z","level":"warn","moduleName":"AutoUpdater","message":"[\n  \"Failed to check for updates:  [Error: ENOENT: no such file or directory, open '/opt/unityhub/resources/app-update.yml'] {\\n\" +\n    '  errno: -2,\\n' +\n    \"  code: 'ENOENT',\\n\" +\n    \"  syscall: 'open',\\n\" +\n    \"  path: '/opt/unityhub/resources/app-update.yml'\\n\" +\n    '}'\n]"}
+{"timestamp":"2024-02-20T01:37:45.938Z","level":"info","moduleName":"RestServer","message":"[ 'Init' ]"}
+{"timestamp":"2024-02-20T01:37:45.938Z","level":"info","moduleName":"RestEventRouter","message":"[ 'subscribing to: project.opened' ]"}
+{"timestamp":"2024-02-20T01:37:45.938Z","level":"info","moduleName":"RestEventRouter","message":"[ 'subscribing to: project.create' ]"}
+{"timestamp":"2024-02-20T01:37:45.938Z","level":"info","moduleName":"RestEventRouter","message":"[ 'subscribing to: project.createTemp' ]"}
+{"timestamp":"2024-02-20T01:37:45.939Z","level":"info","moduleName":"RestEventRouter","message":"[ 'subscribing to: project.openedFromCloud' ]"}
+{"timestamp":"2024-02-20T01:37:45.939Z","level":"info","moduleName":"RestEventRouter","message":"[ 'subscribing to: main-window.change' ]"}
+{"timestamp":"2024-02-20T01:37:45.940Z","level":"info","moduleName":"WebSocketService","message":"[ 'starting listening for request' ]"}
+{"timestamp":"2024-02-20T01:37:45.940Z","level":"info","moduleName":"HubIPCService","message":"[ 'Init' ]"}
+{"timestamp":"2024-02-20T01:37:45.941Z","level":"info","moduleName":"UnityIPCServer","message":"[ 'IPC Server /tmp/Unity-hubIPCService.sock started' ]"}
+{"timestamp":"2024-02-20T01:37:45.941Z","level":"info","moduleName":"LocalProject","message":"[ 'Init' ]"}
+{"timestamp":"2024-02-20T01:37:45.942Z","level":"warn","moduleName":"EditorPrefLinux","message":"[\n  [Error: ENOENT: no such file or directory, open '/home/kinveth/.local/share/unity3d/prefs'] {\n    errno: -2,\n    code: 'ENOENT',\n    syscall: 'open',\n    path: '/home/kinveth/.local/share/unity3d/prefs'\n  }\n]"}
+{"timestamp":"2024-02-20T01:37:45.956Z","level":"warn","moduleName":"EditorPrefLinux","message":"[\n  [Error: ENOENT: no such file or directory, open '/home/kinveth/.local/share/unity3d/prefs'] {\n    errno: -2,\n    code: 'ENOENT',\n    syscall: 'open',\n    path: '/home/kinveth/.local/share/unity3d/prefs'\n  }\n]"}
+{"timestamp":"2024-02-20T01:37:45.957Z","level":"info","moduleName":"WindowManager","message":"[ 'Init' ]"}
+{"timestamp":"2024-02-20T01:37:45.957Z","level":"info","moduleName":"ListStorage","message":"[ '0 located items found in storage' ]"}
+{"timestamp":"2024-02-20T01:37:45.958Z","level":"info","moduleName":"NetworkInterceptors","message":"[ 'Init' ]"}
+{"timestamp":"2024-02-20T01:37:45.958Z","level":"info","moduleName":"TrayMenu","message":"[ 'Init' ]"}
+{"timestamp":"2024-02-20T01:37:45.983Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2024-02-20T01:37:46.050Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2024-02-20T01:37:46.333Z","level":"warn","moduleName":"EditorPrefLinux","message":"[\n  [Error: ENOENT: no such file or directory, open '/home/kinveth/.local/share/unity3d/prefs'] {\n    errno: -2,\n    code: 'ENOENT',\n    syscall: 'open',\n    path: '/home/kinveth/.local/share/unity3d/prefs'\n  }\n]"}
+{"timestamp":"2024-02-20T01:37:46.346Z","level":"info","moduleName":"AutoUpdater","message":"[ 'Hub upgrade version available undefined' ]"}
+{"timestamp":"2024-02-20T01:37:46.352Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2024-02-20T01:37:46.365Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2024-02-20T01:37:46.365Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2024-02-20T01:37:46.365Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2024-02-20T01:37:46.376Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2024-02-20T01:37:46.379Z","level":"info","moduleName":"uosService","message":"[ 'is uos system', false ]"}
+{"timestamp":"2024-02-20T01:38:45.986Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2024-02-20T01:38:45.998Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2024-02-20T01:39:45.959Z","level":"error","moduleName":"LivePush","message":"[ 'failed to ge live pushes:', 'auth failed' ]"}
+{"timestamp":"2024-02-20T01:39:45.959Z","level":"error","message":"Unhandled promise rejection, reason: undefined\n\tstack undefined"}
+{"timestamp":"2024-02-20T01:40:35.139Z","level":"info","moduleName":"UnityIPCServer","message":"[ 'client process has connected to /tmp/Unity-hubIPCService.sock!' ]"}
+{"timestamp":"2024-02-20T01:40:35.184Z","level":"info","moduleName":"IPCServer:HubProtocol","message":"[\n  'Handling url unityhub://login/?code=REDACTED_FOR_SECURITY&locale=en&session_state=REDACTED_FOR_SECURITY'\n]"}
+{"timestamp":"2024-02-20T01:40:35.183Z","level":"info","moduleName":"fileAssociationBootstrap","message":"[\n  'Sending handle url request to main thread for unityhub://login/?code=REDACTED_FOR_SECURITY&locale=en&session_state=REDACTED_FOR_SECURITY'\n]"}
+{"timestamp":"2024-02-20T01:40:38.774Z","level":"info","moduleName":"Authentification Service","message":"[ 'Fetching user info from the identity provider using access token' ]"}
+{"timestamp":"2024-02-20T01:40:38.776Z","level":"warn","moduleName":"TokenManager","message":"[ 'Unable to save tokens.', [Error: The name is not activatable] ]"}
+{"timestamp":"2024-02-20T01:40:41.642Z","level":"info","moduleName":"AutoUpdater:EventHandler","message":"[ 'Checking for update' ]"}
+{"timestamp":"2024-02-20T01:40:41.645Z","level":"info","moduleName":"fileAssociationBootstrap","message":"[\n  'unityhub://login/?code=REDACTED_FOR_SECURITY&locale=en&session_state=REDACTED_FOR_SECURITY was handled, closing the file association process'\n]"}
+{"timestamp":"2024-02-20T01:40:41.643Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2024-02-20T01:40:41.644Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'setAccessToken: Setting access token' ]"}
+{"timestamp":"2024-02-20T01:40:41.644Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2024-02-20T01:40:41.645Z","level":"warn","moduleName":"AutoUpdater:EventHandler","message":"[\n  <ref *1> AppImageUpdater {\n    _events: [Object: null prototype] {\n      error: [Array],\n      'checking-for-update': [Function: bound ],\n      'update-available': [Function: bound ],\n      'update-not-available': [Function: bound ],\n      'download-progress': [Function: bound ],\n      'update-downloaded': [Function: bound ]\n    },\n    _eventsCount: 6,\n    _maxListeners: undefined,\n    autoDownload: false,\n    autoInstallOnAppQuit: true,\n    allowPrerelease: true,\n    fullChangelog: false,\n    allowDowngrade: false,\n    _channel: 'latest',\n    downloadedUpdateHelper: null,\n    requestHeaders: null,\n    _logger: Object [console] {\n      log: [Function: log],\n      warn: [Function: warn],\n      dir: [Function: dir],\n      time: [Function: time],\n      timeEnd: [Function: timeEnd],\n      timeLog: [Function: timeLog],\n      trace: [Function: trace],\n      assert: [Function: assert],\n      clear: [Function: clear],\n      count: [Function: count],\n      countReset: [Function: countReset],\n      group: [Function: group],\n      groupEnd: [Function: groupEnd],\n      table: [Function: table],\n      debug: [Function: debug],\n      info: [Function: info],\n      dirxml: [Function: dirxml],\n      error: [Function: error],\n      groupCollapsed: [Function: groupCollapsed],\n      Console: [Function: Console],\n      profile: [Function: profile],\n      profileEnd: [Function: profileEnd],\n      timeStamp: [Function: timeStamp],\n      context: [Function: context]\n    },\n    signals: UpdaterSignal { emitter: [Circular *1] },\n    _appUpdateConfigPath: '/opt/unityhub/resources/app-update.yml',\n    clientPromise: Promise { <rejected> [Error] },\n    stagingUserIdPromise: Lazy { _value: null, creator: [Function (anonymous)] },\n    configOnDisk: Lazy { _value: [Promise], creator: null },\n    checkForUpdatesPromise: null,\n    updateInfoAndProvider: null,\n    _testOnlyOptions: null,\n    app: ElectronAppAdapter { app: [App] },\n    httpExecutor: ElectronHttpExecutor {\n      maxRedirects: 10,\n      proxyLoginCallback: [Function (anonymous)],\n      cachedSession: null\n    },\n    currentVersion: SemVer {\n      options: [Object],\n      loose: false,\n      raw: '3.1.1-c1',\n      major: 3,\n      minor: 1,\n      patch: 1,\n      prerelease: [Array],\n      build: [],\n      version: '3.1.1-c1'\n    },\n    quitAndInstallCalled: false,\n    quitHandlerAdded: false,\n    [Symbol(kCapture)]: false\n  }\n]"}
+{"timestamp":"2024-02-20T01:40:41.645Z","level":"warn","moduleName":"AutoUpdater","message":"[\n  \"Failed to check for updates:  [Error: ENOENT: no such file or directory, open '/opt/unityhub/resources/app-update.yml'] {\\n\" +\n    '  errno: -2,\\n' +\n    \"  code: 'ENOENT',\\n\" +\n    \"  syscall: 'open',\\n\" +\n    \"  path: '/opt/unityhub/resources/app-update.yml'\\n\" +\n    '}'\n]"}
+{"timestamp":"2024-02-20T01:40:41.647Z","level":"info","moduleName":"HubIPCService","message":"[ 'socket has disconnected: [object Object] , false!' ]"}
+{"timestamp":"2024-02-20T01:40:41.655Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2024-02-20T01:40:41.663Z","level":"info","moduleName":"LicensingSdkService","message":"[\n  'activateAllEntitlementBasedLicenses: Activating all entitlement based licenses'\n]"}
+{"timestamp":"2024-02-20T01:40:41.665Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2024-02-20T01:40:41.665Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2024-02-20T01:40:42.146Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully activated all entitlement based licenses:[]' ]"}
+{"timestamp":"2024-02-20T01:40:42.146Z","level":"info","moduleName":"LicenseService","message":"[ 'activateAllEntitlementBasedLicenses: finished' ]"}
+{"timestamp":"2024-02-20T01:40:42.147Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2024-02-20T01:40:42.160Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2024-02-20T01:40:42.160Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2024-02-20T01:40:42.160Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2024-02-20T01:40:42.172Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2024-02-20T01:40:49.133Z","level":"info","moduleName":"RestEventRouter","message":"[ 'unsubscribing from: project.opened' ]"}
+{"timestamp":"2024-02-20T01:40:49.133Z","level":"info","moduleName":"RestEventRouter","message":"[ 'unsubscribing from: project.create' ]"}
+{"timestamp":"2024-02-20T01:40:49.133Z","level":"info","moduleName":"RestEventRouter","message":"[ 'unsubscribing from: project.createTemp' ]"}
+{"timestamp":"2024-02-20T01:40:49.134Z","level":"info","moduleName":"RestEventRouter","message":"[ 'unsubscribing from: project.openedFromCloud' ]"}
+{"timestamp":"2024-02-20T01:40:49.134Z","level":"info","moduleName":"RestEventRouter","message":"[ 'unsubscribing from: main-window.change' ]"}
+{"timestamp":"2024-02-20T01:40:49.134Z","level":"info","moduleName":"WebSocketService","message":"[ 'stopping web socket server. closing connections' ]"}
+{"timestamp":"2024-02-20T01:40:49.134Z","level":"info","moduleName":"UnityIPCServer","message":"[ 'emit stop child process of /tmp/Unity-hubIPCService.sock' ]"}
+{"timestamp":"2024-02-20T01:40:49.135Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2024-02-20T01:40:49.135Z","level":"info","moduleName":"UnityIPCServer","message":"[ 'IPC server /tmp/Unity-hubIPCService.sock and client closed' ]"}
+{"timestamp":"2024-02-20T01:40:49.183Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2024-02-20T01:40:49.183Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2024-02-20T01:40:58.622Z","level":"info","moduleName":"App","message":"[ 'Checking arguments for Windows custom URI scheme' ]"}
+{"timestamp":"2024-02-20T01:40:58.623Z","level":"info","moduleName":"App","message":"[ 'No custom URI argument found' ]"}
+{"timestamp":"2024-02-20T01:40:58.625Z","level":"info","moduleName":"SystemInfo","message":"[ 'Hub version: 3.1.1-c1' ]"}
+{"timestamp":"2024-02-20T01:40:58.625Z","level":"info","moduleName":"SystemInfo","message":"[ 'Hub path: undefined' ]"}
+{"timestamp":"2024-02-20T01:40:58.627Z","level":"info","moduleName":"SystemInfo","message":"[ 'AMD Ryzen 7 3700X 8-Core Processor; Linux (6.7.5-arch1-1)' ]"}
+{"timestamp":"2024-02-20T01:40:58.638Z","level":"info","moduleName":"HubSettings","message":"[\n  {\n    cloudEnvironment: 'production',\n    servicesUrlInterval: 900000,\n    hubConfigInterval: 3600000,\n    releasesRefreshInterval: 3600000,\n    recentProjectInterval: 60000,\n    downloadClusterInterval: 1000,\n    downloadEditorInterval: 1000,\n    refreshTokenValidity: 2592000000,\n    checkForUpdateInterval: 43200000,\n    sendAnalyticsEventsInterval: 60000,\n    maxSizeForAnalyticsQueue: 500,\n    downloadRequestTimeout: 30000,\n    servicesConfigBaseUrl: 'https://public-cdn.cloud.unitychina.cn/config/',\n    globalConfigFolder: '/usr/share/unity3d/config'\n  }\n]"}
+{"timestamp":"2024-02-20T01:40:58.638Z","level":"info","moduleName":"CloudConfig","message":"[\n  'Cloud Config endpoint: https://public-cdn.cloud.unitychina.cn/config/production'\n]"}
+{"timestamp":"2024-02-20T01:40:59.060Z","level":"info","moduleName":"LocalConfig","message":"[\n  'Local Config endpoint: https://public-cdn.cloud.unitychina.cn/hub/prod/hubConfig.json'\n]"}
+{"timestamp":"2024-02-20T01:40:59.062Z","level":"info","moduleName":"TokenManager","message":"[ 'Init' ]"}
+{"timestamp":"2024-02-20T01:40:59.067Z","level":"warn","moduleName":"TokenManager","message":"[ 'Token storage is corrupted.', [Error: The name is not activatable] ]"}
+{"timestamp":"2024-02-20T01:40:59.068Z","level":"info","moduleName":"TokenManager","message":"[ 'Done init' ]"}
+{"timestamp":"2024-02-20T01:40:59.068Z","level":"info","moduleName":"LicensingSdkService","message":"[\n  'licensingClientPath: /opt/unityhub/UnityLicensingClient_V1/Unity.Licensing.Client'\n]"}
+{"timestamp":"2024-02-20T01:40:59.069Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Licensing SDK version: v1.6.2' ]"}
+{"timestamp":"2024-02-20T01:40:59.069Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'connect: Connecting to Licensing Client IPC channel' ]"}
+{"timestamp":"2024-02-20T01:40:59.069Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Trying to connect to existing primary pipe (if any)...' ]"}
+{"timestamp":"2024-02-20T01:40:59.070Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Trying to connect on pipe /tmp/Unity-LicenseClient-kinveth.sock' ]"}
+{"timestamp":"2024-02-20T01:40:59.073Z","level":"warn","moduleName":"LicensingSdkService","message":"[ 'Lost IPC connection to Licensing Client' ]"}
+{"timestamp":"2024-02-20T01:40:59.074Z","level":"warn","moduleName":"LicensingSdkService","message":"[ 'Failed with ipc error type: PipeIsNotOpen, pid: undefined' ]"}
+{"timestamp":"2024-02-20T01:40:59.074Z","level":"error","moduleName":"LicensingSdkService","message":"[\n  \"Failed to connect to pipe: 'Unity-LicenseClient-kinveth, pid: undefined'\"\n]"}
+{"timestamp":"2024-02-20T01:40:59.074Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'tryKillClientProcess: No client process initialized' ]"}
+{"timestamp":"2024-02-20T01:40:59.075Z","level":"info","moduleName":"LicensingSdkService","message":"[\n  'Launching Licensing Client from /opt/unityhub/UnityLicensingClient_V1/Unity.Licensing.Client...'\n]"}
+{"timestamp":"2024-02-20T01:40:59.075Z","level":"info","moduleName":"LicensingSdkService","message":"[\n  \"Launching on pipe: 'Unity-LicenseClient-kinveth' in environment: 'production'\"\n]"}
+{"timestamp":"2024-02-20T01:40:59.372Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Licensing client process run with pid: 13693' ]"}
+{"timestamp":"2024-02-20T01:40:59.373Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Trying to connect on pipe /tmp/Unity-LicenseClient-kinveth.sock' ]"}
+{"timestamp":"2024-02-20T01:40:59.415Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully connected to licensing client' ]"}
+{"timestamp":"2024-02-20T01:40:59.415Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Init' ]"}
+{"timestamp":"2024-02-20T01:40:59.415Z","level":"info","moduleName":"Authentification Service","message":"[ 'Initializing the auth service' ]"}
+{"timestamp":"2024-02-20T01:40:59.415Z","level":"info","moduleName":"Authentification Service","message":"[ 'Logging out' ]"}
+{"timestamp":"2024-02-20T01:40:59.416Z","level":"info","moduleName":"CloudAnalytics","message":"[ 'Init' ]"}
+{"timestamp":"2024-02-20T01:40:59.416Z","level":"info","moduleName":"EditorManager","message":"[ 'Init' ]"}
+{"timestamp":"2024-02-20T01:40:59.416Z","level":"info","moduleName":"Releases","message":"[\n  'Releases endpoint: https://public-cdn.cloud.unitychina.cn/hub/prod/releases-linux.json'\n]"}
+{"timestamp":"2024-02-20T01:40:59.417Z","level":"error","message":"Unhandled promise rejection, reason: The name is not activatable\n\tstack Error: The name is not activatable"}
+{"timestamp":"2024-02-20T01:40:59.418Z","level":"error","message":"Unhandled promise rejection, reason: The name is not activatable\n\tstack Error: The name is not activatable"}
+{"timestamp":"2024-02-20T01:40:59.418Z","level":"error","message":"Unhandled promise rejection, reason: The name is not activatable\n\tstack Error: The name is not activatable"}
+{"timestamp":"2024-02-20T01:40:59.418Z","level":"error","message":"Unhandled promise rejection, reason: The name is not activatable\n\tstack Error: The name is not activatable"}
+{"timestamp":"2024-02-20T01:40:59.418Z","level":"error","message":"Unhandled promise rejection, reason: The name is not activatable\n\tstack Error: The name is not activatable"}
+{"timestamp":"2024-02-20T01:40:59.420Z","level":"info","moduleName":"EditorList","message":"[ 'init' ]"}
+{"timestamp":"2024-02-20T01:40:59.422Z","level":"info","moduleName":"EditorFolderScanner","message":"[\n  '0 out of 0 valid paths found in path:\\n      /home/kinveth/Unity/Hub/Editor'\n]"}
+{"timestamp":"2024-02-20T01:40:59.422Z","level":"info","moduleName":"customInstallLocation","message":"[ 'Cannot scan custom location (no path set).' ]"}
+{"timestamp":"2024-02-20T01:40:59.422Z","level":"info","moduleName":"LocatedEditorStorage","message":"[ '0 located Editors found in storage' ]"}
+{"timestamp":"2024-02-20T01:40:59.423Z","level":"info","moduleName":"EditorApp","message":"[ 'Init' ]"}
+{"timestamp":"2024-02-20T01:40:59.426Z","level":"info","moduleName":"AutoUpdater","message":"[ 'Init' ]"}
+{"timestamp":"2024-02-20T01:40:59.650Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2024-02-20T01:40:59.666Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2024-02-20T01:40:59.666Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2024-02-20T01:40:59.666Z","level":"warn","moduleName":"AutoUpdater","message":"[ 'Missing update server path' ]"}
+{"timestamp":"2024-02-20T01:40:59.667Z","level":"info","moduleName":"AutoUpdater","message":"[ 'Checking for hub updates' ]"}
+{"timestamp":"2024-02-20T01:40:59.667Z","level":"info","moduleName":"AutoUpdater:EventHandler","message":"[ 'Checking for update' ]"}
+{"timestamp":"2024-02-20T01:40:59.668Z","level":"warn","moduleName":"AutoUpdater:EventHandler","message":"[\n  <ref *1> AppImageUpdater {\n    _events: [Object: null prototype] {\n      error: [Array],\n      'checking-for-update': [Function: bound ],\n      'update-available': [Function: bound ],\n      'update-not-available': [Function: bound ],\n      'download-progress': [Function: bound ],\n      'update-downloaded': [Function: bound ]\n    },\n    _eventsCount: 6,\n    _maxListeners: undefined,\n    autoDownload: false,\n    autoInstallOnAppQuit: true,\n    allowPrerelease: true,\n    fullChangelog: false,\n    allowDowngrade: false,\n    _channel: 'latest',\n    downloadedUpdateHelper: null,\n    requestHeaders: null,\n    _logger: Object [console] {\n      log: [Function: log],\n      warn: [Function: warn],\n      dir: [Function: dir],\n      time: [Function: time],\n      timeEnd: [Function: timeEnd],\n      timeLog: [Function: timeLog],\n      trace: [Function: trace],\n      assert: [Function: assert],\n      clear: [Function: clear],\n      count: [Function: count],\n      countReset: [Function: countReset],\n      group: [Function: group],\n      groupEnd: [Function: groupEnd],\n      table: [Function: table],\n      debug: [Function: debug],\n      info: [Function: info],\n      dirxml: [Function: dirxml],\n      error: [Function: error],\n      groupCollapsed: [Function: groupCollapsed],\n      Console: [Function: Console],\n      profile: [Function: profile],\n      profileEnd: [Function: profileEnd],\n      timeStamp: [Function: timeStamp],\n      context: [Function: context]\n    },\n    signals: UpdaterSignal { emitter: [Circular *1] },\n    _appUpdateConfigPath: '/opt/unityhub/resources/app-update.yml',\n    clientPromise: Promise { <rejected> [Error] },\n    stagingUserIdPromise: Lazy { _value: null, creator: [Function (anonymous)] },\n    configOnDisk: Lazy { _value: [Promise], creator: null },\n    checkForUpdatesPromise: null,\n    updateInfoAndProvider: null,\n    _testOnlyOptions: null,\n    app: ElectronAppAdapter { app: [App] },\n    httpExecutor: ElectronHttpExecutor {\n      maxRedirects: 10,\n      proxyLoginCallback: [Function (anonymous)],\n      cachedSession: null\n    },\n    currentVersion: SemVer {\n      options: [Object],\n      loose: false,\n      raw: '3.1.1-c1',\n      major: 3,\n      minor: 1,\n      patch: 1,\n      prerelease: [Array],\n      build: [],\n      version: '3.1.1-c1'\n    },\n    quitAndInstallCalled: false,\n    quitHandlerAdded: false,\n    [Symbol(kCapture)]: false\n  }\n]"}
+{"timestamp":"2024-02-20T01:40:59.668Z","level":"warn","moduleName":"AutoUpdater","message":"[\n  \"Failed to check for updates:  [Error: ENOENT: no such file or directory, open '/opt/unityhub/resources/app-update.yml'] {\\n\" +\n    '  errno: -2,\\n' +\n    \"  code: 'ENOENT',\\n\" +\n    \"  syscall: 'open',\\n\" +\n    \"  path: '/opt/unityhub/resources/app-update.yml'\\n\" +\n    '}'\n]"}
+{"timestamp":"2024-02-20T01:40:59.668Z","level":"info","moduleName":"RestServer","message":"[ 'Init' ]"}
+{"timestamp":"2024-02-20T01:40:59.668Z","level":"info","moduleName":"RestEventRouter","message":"[ 'subscribing to: project.opened' ]"}
+{"timestamp":"2024-02-20T01:40:59.668Z","level":"info","moduleName":"RestEventRouter","message":"[ 'subscribing to: project.create' ]"}
+{"timestamp":"2024-02-20T01:40:59.669Z","level":"info","moduleName":"RestEventRouter","message":"[ 'subscribing to: project.createTemp' ]"}
+{"timestamp":"2024-02-20T01:40:59.669Z","level":"info","moduleName":"RestEventRouter","message":"[ 'subscribing to: project.openedFromCloud' ]"}
+{"timestamp":"2024-02-20T01:40:59.669Z","level":"info","moduleName":"RestEventRouter","message":"[ 'subscribing to: main-window.change' ]"}
+{"timestamp":"2024-02-20T01:40:59.670Z","level":"info","moduleName":"WebSocketService","message":"[ 'starting listening for request' ]"}
+{"timestamp":"2024-02-20T01:40:59.670Z","level":"info","moduleName":"HubIPCService","message":"[ 'Init' ]"}
+{"timestamp":"2024-02-20T01:40:59.671Z","level":"info","moduleName":"UnityIPCServer","message":"[ 'IPC Server /tmp/Unity-hubIPCService.sock started' ]"}
+{"timestamp":"2024-02-20T01:40:59.671Z","level":"info","moduleName":"LocalProject","message":"[ 'Init' ]"}
+{"timestamp":"2024-02-20T01:40:59.672Z","level":"warn","moduleName":"EditorPrefLinux","message":"[\n  [Error: ENOENT: no such file or directory, open '/home/kinveth/.local/share/unity3d/prefs'] {\n    errno: -2,\n    code: 'ENOENT',\n    syscall: 'open',\n    path: '/home/kinveth/.local/share/unity3d/prefs'\n  }\n]"}
+{"timestamp":"2024-02-20T01:40:59.687Z","level":"warn","moduleName":"EditorPrefLinux","message":"[\n  [Error: ENOENT: no such file or directory, open '/home/kinveth/.local/share/unity3d/prefs'] {\n    errno: -2,\n    code: 'ENOENT',\n    syscall: 'open',\n    path: '/home/kinveth/.local/share/unity3d/prefs'\n  }\n]"}
+{"timestamp":"2024-02-20T01:40:59.687Z","level":"info","moduleName":"WindowManager","message":"[ 'Init' ]"}
+{"timestamp":"2024-02-20T01:40:59.688Z","level":"info","moduleName":"ListStorage","message":"[ '0 located items found in storage' ]"}
+{"timestamp":"2024-02-20T01:40:59.688Z","level":"info","moduleName":"NetworkInterceptors","message":"[ 'Init' ]"}
+{"timestamp":"2024-02-20T01:40:59.688Z","level":"info","moduleName":"TrayMenu","message":"[ 'Init' ]"}
+{"timestamp":"2024-02-20T01:40:59.707Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2024-02-20T01:40:59.737Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2024-02-20T01:40:59.986Z","level":"warn","moduleName":"EditorPrefLinux","message":"[\n  [Error: ENOENT: no such file or directory, open '/home/kinveth/.local/share/unity3d/prefs'] {\n    errno: -2,\n    code: 'ENOENT',\n    syscall: 'open',\n    path: '/home/kinveth/.local/share/unity3d/prefs'\n  }\n]"}
+{"timestamp":"2024-02-20T01:40:59.993Z","level":"info","moduleName":"AutoUpdater","message":"[ 'Hub upgrade version available undefined' ]"}
+{"timestamp":"2024-02-20T01:41:00.000Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2024-02-20T01:41:00.013Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2024-02-20T01:41:00.013Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2024-02-20T01:41:00.013Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2024-02-20T01:41:00.025Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2024-02-20T01:41:00.028Z","level":"info","moduleName":"uosService","message":"[ 'is uos system', false ]"}
+{"timestamp":"2024-02-20T01:41:59.708Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2024-02-20T01:41:59.721Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2024-02-20T01:42:59.691Z","level":"error","moduleName":"LivePush","message":"[ 'failed to ge live pushes:', 'auth failed' ]"}
+{"timestamp":"2024-02-20T01:42:59.691Z","level":"error","message":"Unhandled promise rejection, reason: undefined\n\tstack undefined"}
+{"timestamp":"2024-02-20T01:44:59.691Z","level":"error","moduleName":"LivePush","message":"[ 'failed to ge live pushes:', 'auth failed' ]"}
+{"timestamp":"2024-02-20T01:44:59.691Z","level":"error","message":"Unhandled promise rejection, reason: undefined\n\tstack undefined"}
+{"timestamp":"2024-02-20T01:46:59.691Z","level":"error","moduleName":"LivePush","message":"[ 'failed to ge live pushes:', 'auth failed' ]"}
+{"timestamp":"2024-02-20T01:46:59.692Z","level":"error","message":"Unhandled promise rejection, reason: undefined\n\tstack undefined"}
+{"timestamp":"2024-02-20T01:48:59.692Z","level":"error","moduleName":"LivePush","message":"[ 'failed to ge live pushes:', 'auth failed' ]"}
+{"timestamp":"2024-02-20T01:48:59.692Z","level":"error","message":"Unhandled promise rejection, reason: undefined\n\tstack undefined"}
+{"timestamp":"2024-02-20T01:50:59.692Z","level":"error","moduleName":"LivePush","message":"[ 'failed to ge live pushes:', 'auth failed' ]"}
+{"timestamp":"2024-02-20T01:50:59.692Z","level":"error","message":"Unhandled promise rejection, reason: undefined\n\tstack undefined"}
+{"timestamp":"2024-02-20T01:52:59.693Z","level":"error","moduleName":"LivePush","message":"[ 'failed to ge live pushes:', 'auth failed' ]"}
+{"timestamp":"2024-02-20T01:52:59.693Z","level":"error","message":"Unhandled promise rejection, reason: undefined\n\tstack undefined"}
+{"timestamp":"2024-02-20T01:54:59.693Z","level":"error","moduleName":"LivePush","message":"[ 'failed to ge live pushes:', 'auth failed' ]"}
+{"timestamp":"2024-02-20T01:54:59.693Z","level":"error","message":"Unhandled promise rejection, reason: undefined\n\tstack undefined"}
+{"timestamp":"2024-02-20T01:56:59.693Z","level":"error","moduleName":"LivePush","message":"[ 'failed to ge live pushes:', 'auth failed' ]"}
+{"timestamp":"2024-02-20T01:56:59.693Z","level":"error","message":"Unhandled promise rejection, reason: undefined\n\tstack undefined"}
+{"timestamp":"2024-02-20T01:58:59.693Z","level":"error","moduleName":"LivePush","message":"[ 'failed to ge live pushes:', 'auth failed' ]"}
+{"timestamp":"2024-02-20T01:58:59.693Z","level":"error","message":"Unhandled promise rejection, reason: undefined\n\tstack undefined"}
+{"timestamp":"2024-02-20T02:00:59.693Z","level":"error","moduleName":"LivePush","message":"[ 'failed to ge live pushes:', 'auth failed' ]"}
+{"timestamp":"2024-02-20T02:00:59.694Z","level":"error","message":"Unhandled promise rejection, reason: undefined\n\tstack undefined"}
+{"timestamp":"2024-02-20T02:02:59.694Z","level":"error","moduleName":"LivePush","message":"[ 'failed to ge live pushes:', 'auth failed' ]"}
+{"timestamp":"2024-02-20T02:02:59.694Z","level":"error","message":"Unhandled promise rejection, reason: undefined\n\tstack undefined"}
+{"timestamp":"2024-02-20T02:04:59.694Z","level":"error","moduleName":"LivePush","message":"[ 'failed to ge live pushes:', 'auth failed' ]"}
+{"timestamp":"2024-02-20T02:04:59.694Z","level":"error","message":"Unhandled promise rejection, reason: undefined\n\tstack undefined"}
+{"timestamp":"2024-02-20T02:06:59.698Z","level":"error","moduleName":"LivePush","message":"[ 'failed to ge live pushes:', 'auth failed' ]"}
+{"timestamp":"2024-02-20T02:06:59.698Z","level":"error","message":"Unhandled promise rejection, reason: undefined\n\tstack undefined"}
+{"timestamp":"2024-02-20T02:08:59.704Z","level":"error","moduleName":"LivePush","message":"[ 'failed to ge live pushes:', 'auth failed' ]"}
+{"timestamp":"2024-02-20T02:08:59.704Z","level":"error","message":"Unhandled promise rejection, reason: undefined\n\tstack undefined"}
+{"timestamp":"2024-02-20T02:10:59.704Z","level":"error","moduleName":"LivePush","message":"[ 'failed to ge live pushes:', 'auth failed' ]"}
+{"timestamp":"2024-02-20T02:10:59.705Z","level":"error","message":"Unhandled promise rejection, reason: undefined\n\tstack undefined"}
+{"timestamp":"2024-02-20T02:12:59.708Z","level":"error","moduleName":"LivePush","message":"[ 'failed to ge live pushes:', 'auth failed' ]"}
+{"timestamp":"2024-02-20T02:12:59.708Z","level":"error","message":"Unhandled promise rejection, reason: undefined\n\tstack undefined"}
+{"timestamp":"2024-02-20T02:14:59.711Z","level":"error","moduleName":"LivePush","message":"[ 'failed to ge live pushes:', 'auth failed' ]"}
+{"timestamp":"2024-02-20T02:14:59.711Z","level":"error","message":"Unhandled promise rejection, reason: undefined\n\tstack undefined"}
+{"timestamp":"2024-02-20T02:16:59.714Z","level":"error","moduleName":"LivePush","message":"[ 'failed to ge live pushes:', 'auth failed' ]"}
+{"timestamp":"2024-02-20T02:16:59.715Z","level":"error","message":"Unhandled promise rejection, reason: undefined\n\tstack undefined"}
+{"timestamp":"2024-02-20T02:18:59.718Z","level":"error","moduleName":"LivePush","message":"[ 'failed to ge live pushes:', 'auth failed' ]"}
+{"timestamp":"2024-02-20T02:18:59.718Z","level":"error","message":"Unhandled promise rejection, reason: undefined\n\tstack undefined"}
+{"timestamp":"2024-02-20T02:20:59.723Z","level":"error","moduleName":"LivePush","message":"[ 'failed to ge live pushes:', 'auth failed' ]"}
+{"timestamp":"2024-02-20T02:20:59.723Z","level":"error","message":"Unhandled promise rejection, reason: undefined\n\tstack undefined"}
+{"timestamp":"2024-02-20T02:22:59.728Z","level":"error","moduleName":"LivePush","message":"[ 'failed to ge live pushes:', 'auth failed' ]"}
+{"timestamp":"2024-02-20T02:22:59.728Z","level":"error","message":"Unhandled promise rejection, reason: undefined\n\tstack undefined"}
+{"timestamp":"2024-02-20T02:24:59.731Z","level":"error","moduleName":"LivePush","message":"[ 'failed to ge live pushes:', 'auth failed' ]"}
+{"timestamp":"2024-02-20T02:24:59.731Z","level":"error","message":"Unhandled promise rejection, reason: undefined\n\tstack undefined"}
